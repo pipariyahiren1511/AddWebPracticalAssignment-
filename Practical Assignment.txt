@@ -1,0 +1,21 @@
+Prepare Laravel latest version setup using Command line
+
+Setup Laravel authentication and open routes for login, registration and forget the password (which are built-in utilities)
+
+Prepare one migration to add student information (primary key auto-incremented, student name, grade, photo, date of birth, address, city, and country)
+
+Prepare one protected WEB route to list details from a database table (using view blade file and using YAJRA Datagrid)
+
+There must be sorting features on the student name, grade, and date of birth (server-side)
+
+The data grid must have pagination feature working (server-side)
+
+Prepare one WEB form to save student information as per the fields defined above
+
+Prepare custom validation class to sanitize user input
+
+The student photo must be saved inside the storage folder and must be linked with public folder
+
+Add as many application logs as you can for debugging purpose
+
+Use try-catch exceptions in order to handle the unwanted errors 
